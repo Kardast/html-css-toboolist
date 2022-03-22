@@ -11,6 +11,7 @@ body{
     font-size: 24px;
 }
 
+/* Inizio header */
 .logo{
     height: 150px;
     width: 100%;
@@ -47,4 +48,22 @@ body{
     border-radius: 8px;
     color: rgb(196, 171, 171);
     font-weight: 600;
+}
+
+/* Inizio main */
+main{
+    width: 50%;
+    height: 1000px;
+    padding-left: 15%;
+    padding-top: 50px;
+}
+
+section h1{
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+section p{
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
