@@ -11,8 +11,40 @@ body{
     font-size: 24px;
 }
 
-div{
-    height: 200px;
+.logo{
+    height: 150px;
     width: 100%;
-    background-color: rgb(44, 104, 156);
+    padding-left: 100px;
+    padding-top: 30px;
+}
+
+.logo p{
+    display: inline-block;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.bottoni{
+    height: 50px;
+    width: 20%;
+    margin-left: 15%;
+    margin-right: auto;
+}
+
+#b1{
+    background-color: rgba(71,173,241,255);
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+}
+
+#b2{
+    background-color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    color: rgb(196, 171, 171);
+    font-weight: 600;
 }
