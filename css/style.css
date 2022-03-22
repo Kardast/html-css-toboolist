@@ -52,7 +52,7 @@ body{
 
 /* Inizio main */
 main{
-    width: 50%;
+    width: 60%;
     height: 1000px;
     padding-left: 15%;
     padding-top: 50px;
@@ -66,4 +66,39 @@ section h1{
 section p{
     padding-top: 15px;
     padding-bottom: 15px;
+}
+
+.task{
+    color: white;
+    display: inline-block;
+    width: 120px;
+    height: 50px;
+    border-radius: 15px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+}
+
+.edit{
+    background-color: rgb(69,171,234);
+}
+
+.q1{
+    background-color: rgba(156,114,228,255);
+}
+
+.recr{
+    background-color: rgba(100,192,169,255);
+}
+
+.mobile{
+    background-color: rgba(242,158,51,255);
+}
+
+.web{
+    background-color: rgba(216,99,161,255);
+}
+
+.sale{
+    background-color: rgba(176,201,38,255);
 }
