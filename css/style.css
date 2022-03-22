@@ -19,10 +19,17 @@ body{
     padding-top: 30px;
 }
 
+#img{
+    height: 80px;
+    width: auto;
+    line-height: 80px;
+    vertical-align: middle;
+}
+
 .logo p{
     display: inline-block;
-    font-size: 35px;
-    font-weight: 600;
+    font-size: 50px;
+    font-weight: 700;
 }
 
 .bottoni{
@@ -34,26 +41,28 @@ body{
 
 #b1{
     background-color: rgba(71,173,241,255);
-    width: 100px;
-    height: 30px;
+    width: 120px;
+    height: 40px;
     border-radius: 8px;
     color: white;
     font-weight: 600;
+    font-size: 18px;
 }
 
 #b2{
     background-color: white;
-    width: 100px;
-    height: 30px;
+    width: 130px;
+    height: 40px;
     border-radius: 8px;
     color: rgb(196, 171, 171);
     font-weight: 600;
+    font-size: 18px;
 }
 
 /* Inizio main */
 main{
     width: 60%;
-    height: 1000px;
+    height: 1200px;
     padding-left: 15%;
     padding-top: 50px;
 }
@@ -68,6 +77,7 @@ section p{
     padding-bottom: 15px;
 }
 
+/* Compiti da svolgere */
 .task{
     color: white;
     display: inline-block;
@@ -79,6 +89,7 @@ section p{
     line-height: 50px;
 }
 
+/* Colori labels */
 .edit{
     background-color: rgb(69,171,234);
 }
@@ -101,4 +112,29 @@ section p{
 
 .sale{
     background-color: rgba(176,201,38,255);
+}
+
+.round{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+}
+
+.ok{
+    color: green;
+    border: 2px solid green;
+}
+
+.no{
+    color: red;
+    border: 2px solid red;
+}
+/* Fine main */
+
+footer{
+    padding-left: 10%;
 }
