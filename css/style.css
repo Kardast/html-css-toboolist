@@ -3,15 +3,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: rgb(183, 201, 216);
 }
 
 body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
+    background-color: rgb(183, 201, 216);
 }
 
 /* Inizio header */
+header{
+    background-color: rgb(221, 235, 221);
+}
+
 .logo{
     height: 150px;
     width: 100%;
@@ -30,13 +34,15 @@ body{
     display: inline-block;
     font-size: 50px;
     font-weight: 700;
+    line-height: 80px;
+    vertical-align: middle;
 }
 
 .bottoni{
-    height: 50px;
-    width: 20%;
-    margin-left: 15%;
-    margin-right: auto;
+    height: 100px;
+    padding-top: 25px;
+    padding-left: 10%;
+    border-bottom: solid rgb(183, 201, 216) 4px;
 }
 
 #b1{
@@ -63,10 +69,15 @@ body{
 main{
     width: 60%;
     height: 1200px;
-    padding-left: 15%;
-    padding-top: 50px;
+    margin-left: 15%;
+    margin-top: 50px;
+    background-color: rgb(221, 235, 221);
 }
 
+section{
+    padding-left: 10%;
+}
+                                         
 section h1{
     padding-top: 50px;
     padding-bottom: 10px;
